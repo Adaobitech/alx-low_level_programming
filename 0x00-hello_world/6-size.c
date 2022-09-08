@@ -1,9 +1,12 @@
 #include <stdio.h>
 /**
  * main - Entry point
+ *
  * char, int, float - Datatypes
- * Return: Always 0  (Success)
+ * 
+ * Return: Always 0 
  */
+
 int main(void)
 {
 	int a;
