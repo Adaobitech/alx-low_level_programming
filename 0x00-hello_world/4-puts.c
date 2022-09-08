@@ -4,7 +4,7 @@
  *
  * function - puts
  *
- * Return - Always 0
+ * Return - Always 0 (Success)
  *
  * puts - Standard output
  */
