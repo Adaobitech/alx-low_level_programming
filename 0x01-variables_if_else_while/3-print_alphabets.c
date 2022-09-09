@@ -14,10 +14,9 @@ int main(void)
 	char lc; /* lowercase*/
 	char uc; /*uppercase*/
 
-	for (lc = 'c'; lc <= 'z'; lc++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 		putchar(lc);
-
-	for (uc = 'C'; uc <= 'C'; uc++)
+	for (uc = 'A'; uc <= 'Z'; uc++)
 	       putchar(uc);
 
 	putchar('\n');
