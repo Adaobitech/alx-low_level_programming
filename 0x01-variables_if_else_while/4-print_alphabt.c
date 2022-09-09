@@ -12,6 +12,7 @@
 int main(void)
 {
 	char ch, e, q;
+
 	e = 'e';
 	q = 'q';
 
