@@ -24,12 +24,12 @@ int main(void)
 		{
 			if (i != n && i < n)
 			{
-			       putchar(i);
-			       putchar(n);
-			       if (n == 57 && i == 56)
-			       {
-				       break;
-			       }
+			       	putchar(i);
+			       	putchar(n);
+				if (n == 57 && i == 56)
+			       	{
+					break;
+			       	}
 			putchar(',');
 			putchar(' ');
 			}
