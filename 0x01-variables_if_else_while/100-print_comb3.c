@@ -20,23 +20,23 @@ int main(void)
 	while (i < 58)
 	{
 		n = 48;
-	       while (n < 58)
-	       {
-		       if (i != n && i < n)
-		       {
+		while (n < 58)
+		{
+			if (i != n && i < n)
+			{
 			       putchar(i);
 			       putchar(n);
-			       if (n ==57 && i == 56)
+			       if (n == 57 && i == 56)
 			       {
 				       break;
 			       }
 			putchar(',');
 			putchar(' ');
-			}	
+			}
 			n++;
 		}
 		i++;
-       }
+	}
 	putchar('\n');
 
 	return (0);
