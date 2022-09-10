@@ -12,17 +12,31 @@
 int main(void)
 {
 	int n;
+	int i;
 
-	for (n = 0; n < 100; n++)
-	{
-		putchar((n / 10) + '0');
-		putchar((n % 10) + '0');
-		if (n != 99)
-		{
+	n = 48;
+	i = 48;
+
+       while (i < 58)
+       {
+	       n = 48;
+	       while (n < 58)
+	       {
+		       if (i != n && i < n)
+		       {
+			       putchar(i);
+			       putchar(n);
+			       if (n ==57 && i == 56)
+			       {
+				       break;
+			       }
 			putchar(',');
 			putchar(' ');
+			}	
+			n++;
 		}
-	}
+		i++;
+       }
 	putchar('\n');
 
 	return (0);
