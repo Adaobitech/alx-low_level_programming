@@ -2,7 +2,7 @@
 /**
  *_islower - Entry point
  *
- *c: is an ASCII character
+ *@c: c is an ASCII character
  *
  * Code checks if a character is lowercase
  *
