@@ -9,22 +9,24 @@
 
 int main(void)
 {
-	int a, b, i;
+	int i;
 	unsigned long int Sum = 0;
+	unsigned long int a = 0;
+	unsigned long int b = 0;
 
 	for (i = 1; i < 1024; i++)
 	{
-		a = i % 3;
-		b = i % 5;
-
-		if (a == 0 || b == 0)
+		if ((i % 3) == 0)
 		{
-			Sum = a + b;
-			Sum = Sum + i;
-
-			printf("%lu\n ", Sum);
+			a = a + i;
+		}
+		else if ((i % 5) == 0)
+		{
+			b = b + i;
 		}
 	}
+	Sum = a + b;
+	printf("%lu\n ", Sum);
 	return (0);
 }
 		
