@@ -4,6 +4,10 @@
  *
  * Codes that adds two integers
  *
+ * @a: a is an ASCII character
+ *
+ * @b: b is an ASCII character
+ *
  * Return: Integers
  */
 
