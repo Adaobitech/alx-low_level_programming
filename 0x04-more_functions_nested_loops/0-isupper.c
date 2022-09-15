@@ -4,9 +4,8 @@
  * _isupper - Entry point
  *
  * Code that checks if an alphabet is uppercase
- *@c: character 
- * Return: 1 if uppercase
- * Return: 0 if otherwise
+ * @c: character 
+ * Return: 1 if uppercase or 0 if otherwise
  */
 
 int _isupper(int c)
@@ -15,5 +14,4 @@ int _isupper(int c)
 		return (1);
 	else
 		return (0);
-
 }
