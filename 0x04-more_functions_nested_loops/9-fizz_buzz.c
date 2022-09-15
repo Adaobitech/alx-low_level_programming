@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	
+
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 3 == 0)
@@ -24,7 +24,7 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-		else 
+		else
 		{
 			printf("%d ", n);
 		}
