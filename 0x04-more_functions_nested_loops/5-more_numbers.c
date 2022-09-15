@@ -9,13 +9,13 @@
 void more_numbers(void)
 {
 	int i;
-	int j;
+	char j;
 
 	i = 0;
-	while (i <= 57)
+	while (i <= 9)
 	{
 		j = 0;
-		while (j >= '14')
+		while (j >= 14)
 		{
 			_putchar(j);
 			j++;
