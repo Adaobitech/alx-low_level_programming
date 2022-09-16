@@ -8,27 +8,16 @@
 
 int main(void)
 {
-	long long int n;
-	n = 612852475143;
-	long int d = 2, a = 0, largest;
+	unsigned long int n, i = 3;
 
-	while (n != 0)
+	n = 612852475143;
+
+	for (; i < 12057; i += 2)
 	{
-		if (n % d != 0)
-		{
-			d = d + 1;
-		}
-		else
-		{
-			largest = n;
-			n = n / d;
-		}
-		if (n == 1)
-		{
-			printf("%ld\n", largest);
-			a = 1;
-			break;
-		}
+		while (n % i == 0 && n != i)
+			n /= i;
 	}
+	printf("%ld\n", n);
+
 	return (0);
 }
