@@ -9,29 +9,22 @@
 
 void print_number(int n)
 {
-	unsigned int a, b, c;
+	unsigned int a;
 
 	if (n < 0)
 	{
+		a = -n;
 		_putchar(45);
-		a = n * -1;
+
 	}
 	else
 	{
 		a = n;
 	}
 
-	b = a;
-	c = 1;
-
-	while (b > 9)
+	if (a / 10)
 	{
-		b /= 10;
-		c *= 10;
+		print_number(a / 10);
 	}
-
-	for (; c >= 1; c /= 10)
-	{
-		_putchar(((a / c) % 10) + 48);
-	}
+		_putchar((a % 10) + 48);
 }
