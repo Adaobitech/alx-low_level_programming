@@ -18,11 +18,11 @@ void rev_string(char *s)
 	}
 	a = i - 1;
 	b = a / 2;
-	while (half >= 0)
+	while (b >= 0)
 	{
 		x = s[a - b];
 		y = s[b];
-		s[b] = a;
+		s[b] = x;
 		s[a - b] = y;
 		b--;
 	}
