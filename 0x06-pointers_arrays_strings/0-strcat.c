@@ -25,6 +25,7 @@ char *_strcat(char *dest, char *src)
 		if (*(src + c2) == '\0')
 			break;
 		c1++;
-		c2++
+		c2++;
 	}
 	return (dest);
+}
