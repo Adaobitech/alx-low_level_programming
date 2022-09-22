@@ -17,8 +17,10 @@ char *rot13(char *s)
 		for (i = 0; i < 52; i++)
 		{
 			if (*(s + c) == alphabets[i])
-					*(s + c) = rot13[i];
-					break;
+			{
+				*(s + c) = rot13[i];
+				break;
+			}
 		}
 		c++;
 	}
