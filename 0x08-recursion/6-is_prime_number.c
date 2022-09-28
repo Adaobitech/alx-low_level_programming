@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _is_prime _number - prints prime number
+ * _is_prime_number - prints prime number
  * @n: Integer
  * Return: 1 if Prime numbea,0 if not
  */
@@ -17,7 +17,7 @@ int _is_prime_number(int n)
 
 /**
  * is_prime - return 1 if n isgreh
- * @: String
+ * @n: String
  * @start: String
  * Return: prime number
  */
