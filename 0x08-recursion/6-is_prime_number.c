@@ -6,7 +6,7 @@
  * Return: 1 if Prime numbea,0 if not
  */
 
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	int start = n / 2;
 
