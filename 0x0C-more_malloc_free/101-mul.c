@@ -11,11 +11,13 @@
 int main(int argc, char *argv[])
 {
 	unsigned long mul;
-	int i, j;
+	int i, j, t;
+	char a[] = "Error\n";
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		for (t = 0; a[t]; t++)
+			_putchar(a[t]);
 		exit(98);
 	}
 
@@ -25,13 +27,14 @@ int main(int argc, char *argv[])
 		{
 			if (argv[i][j] > 57 || argv[i][j] < 48)
 			{
-				printf("Error\n");
+				for (t = 0; a[t]; t++)
+					_putchar(a[t]);
 				exit(98);
 			}
 		}
 	}
 	mul = atoi(argv[1]) * atoi(argv[2]);
-	printf("%lu\n", mul);
+	_putchar(mul);
 
 	return (0);
 }
