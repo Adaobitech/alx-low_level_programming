@@ -8,12 +8,12 @@
  * Return: Always
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int i, bytes;
 	char *ar;
 
-	if (argc != 2)
+	if (argc < 2)
 	{
 		printf("Error\n");
 		exit(1);
@@ -37,6 +37,7 @@ int main(int argc, char *argv[])
 			break;
 		}
 		printf("%02hhx\n", ar[i]);
+		exit(3);
 	}
 	return (0);
 }
