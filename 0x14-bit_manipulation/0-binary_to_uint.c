@@ -30,5 +30,6 @@ unsigned int binary_to_uint(const char *b)
 			u += base;
 		}
 	}
+
 	return (u);
 }
